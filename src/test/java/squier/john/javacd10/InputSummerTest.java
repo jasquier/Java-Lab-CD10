@@ -23,8 +23,8 @@ public class InputSummerTest {
 
     @Test
     public void inputSummerTestNegative() {
-        int expected = -1;
-        int actual = inputSummer.sumUpToInput(-10);
+        int expected = -2;
+        int actual = inputSummer.sumUpToInput(-2);
         Assert.assertEquals("I expect actual to be -1", expected, actual);
     }
 
